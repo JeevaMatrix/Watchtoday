@@ -6,7 +6,7 @@ export default function About() {
   useDocumentTitle('About');
   return (
     <div className="wrap page page--narrow legal">
-      <h1 className="h-page">About Watch Today</h1>
+      <h1 className="h-page">About Pocket Cinema</h1>
       <p>
         WatchList is a small tool for keeping track of movies and shows you want to see. It began as a first
         web-development project by {SITE.owner} ({SITE.ownerHandle}) and was rebuilt to solve a real annoyance: a list of

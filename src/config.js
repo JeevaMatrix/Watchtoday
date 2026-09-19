@@ -1,8 +1,8 @@
 // One place for everything the legal pages and footer need.
 // EDIT THE FIELDS MARKED "CHANGE ME" before you deploy.
 export const SITE = {
-  name: 'Watch Today',
-  url: 'https://watchtoday.netlify.app',
+  name: 'Pocket Cinema',
+  url: 'https://pocketcinema.netlify.app',
   owner: 'Jeeva Matrix',
   ownerHandle: 'JeevaMatrix',
   github: 'https://github.com/JeevaMatrix', // CHANGE ME if your profile URL differs
