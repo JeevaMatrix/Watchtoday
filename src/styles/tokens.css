@@ -1,0 +1,41 @@
+:root {
+  /* Theater palette: deep teal house lights, ticket cream, butter and curtain orange */
+  --lobby: #0f2529;
+  --lobby-2: #153138;
+  --lobby-3: #1d4048;
+  --line: rgba(243, 230, 201, 0.14);
+  --line-strong: rgba(243, 230, 201, 0.3);
+  --cream: #f3e6c9;
+  --cream-dim: #aebcb7;
+  --butter: #f7c948;
+  --butter-ink: #2b2000;
+  --curtain: #ff7a59;
+  --mint: #79d6a3;
+  --danger: #ff8f7a;
+  --ticket: #f3e6c9;
+  --ticket-ink: #2a2418;
+
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+
+  --r-tag: 6px;
+  --r-poster: 10px;
+  --r-field: 12px;
+  --r-panel: 18px;
+  --r-pill: 999px;
+
+  --gutter: clamp(16px, 4vw, 32px);
+  --topbar-h: 64px;
+  --bottomnav-h: 68px;
+  --card-min: 148px;
+}
+
+@media (min-width: 720px) {
+  :root { --card-min: 176px; }
+}
